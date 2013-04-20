@@ -1,0 +1,13 @@
+{
+ "catalog": "Catalog of Chile Data",
+ "stores": [
+  {
+   "store": "uncropped:fs",
+   "params": {
+     "type": "fs",
+     "path": "/home/rob/nasa/seeingwaterfromspace/data/uncropped",
+     "cacheAll": "no"
+    }
+  }
+ ]
+}
