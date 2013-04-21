@@ -2,11 +2,19 @@
  "catalog": "Catalog of Chile Data",
  "stores": [
   {
-   "store": "uncropped:fs",
+   "store": "Chile Water - Processed",
    "params": {
      "type": "fs",
-     "path": "/home/rob/nasa/seeingwaterfromspace/data/uncropped",
-     "cacheAll": "no"
+     "path": "/home/ubuntu/seeingwaterfromspace/data/cropped",
+     "cacheAll": "yes"
+    }
+  },
+  {
+   "store": "Chile Water - Unprocessed",
+   "params": {
+     "type": "fs",
+     "path": "/home/ubuntu/seeingwaterfromspace/data/uncropped",
+     "cacheAll": "yes"
     }
   }
  ]
